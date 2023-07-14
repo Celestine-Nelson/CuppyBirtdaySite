@@ -1,0 +1,100 @@
+body {
+    text-align: center;
+    font-family: 'Happy Monkey', cursive;
+    background-color: #6097ca;
+    color: white;
+}
+
+#fr-img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 5px solid #cc799a;
+    margin-bottom: 10px;
+}
+
+h1,
+h2,
+h3,
+h4,
+p {
+    text-shadow: 0px 0px 1px black;
+    background-color: #cc799a;
+    padding: 5px 10px;
+}
+
+#header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 5px;
+}
+
+.gift-section {
+    margin-top: 50px;
+}
+
+.gift-title {
+    margin-bottom: 10px;
+    background-color: #6097ca;
+}
+
+.gift-hint {
+    background-color: #6097ca;
+    margin-top: 0;
+}
+
+.bday-age {
+    background: #cc799a;
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    margin-top: 5px;
+}
+
+.bday-date {
+    background: #cc799a;
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    margin-top: 5px;
+}
+
+.gift-img {
+    width: 400px;
+    height: 410px;
+    border: 6px solid white;
+    border-radius: 10px;
+    background-image: url("images/gift3.jpeg");
+    background-size: cover;
+    margin: 0 auto;
+}
+
+#gift-img-happy:hover {
+    background-image: url("images/gift2.jpeg");
+}
+
+#gift-img-hot:hover {
+    background-image: url("images/Celestinbox.jpg");
+}
+
+#genius-gift:hover {
+    background-image: url("images/gift.jpg");
+}
+
+#badass-gift:hover {
+    background-image: url("images/CelestineLib.jpg");
+}
+
+#gift-img-cheers:hover {
+    height: 200px;
+}
+
+#link {
+    color: white;
+    font-style: italic;
+}
+
+#footer {
+    background-color: inherit;
+}
